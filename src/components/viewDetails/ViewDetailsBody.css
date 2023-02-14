@@ -1,0 +1,84 @@
+.viewDetailsTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  /* or 167% */
+
+  color: #000000;
+}
+
+.viewdetailsheading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.jobcard {
+  background: #f5f4f0;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.jobinformation {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.iconDiv {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0e0e0e;
+  margin-right: 10px;
+}
+
+.divCardTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #000000;
+}
+
+.divCardSubTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #0085ff;
+}
+
+.listTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  margin-left: 3%;
+  color: #000000;
+}
+
+.ulItem {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+  color: #000000;
+}
