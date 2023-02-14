@@ -12,7 +12,7 @@ const ErpBody = () => {
                 </h1>
              </div>
           <div className="col-lg-6 col-md-12 col-sm-12 text-center mb-3">
-            <img src="./assets/img3.png" className="img-fluid"></img>
+            <img src="./assets/img3.png" alt="img" className="img-fluid"></img>
           </div>
             </div>
             <div className='erpheading'>

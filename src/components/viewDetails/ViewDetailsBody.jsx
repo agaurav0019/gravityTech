@@ -17,6 +17,7 @@ const ViewDetailsBody = () => {
             <img
               src="./assets/viewdetailspageimage.png"
               className="img-fluid"
+              alt="img"
             ></img>
           </div>
         </div>
@@ -30,7 +31,7 @@ const ViewDetailsBody = () => {
                 <div className="jobinformation mb-3">Job Information</div>
                 <div className="d-flex mb-2 align-items-center">
                   <div className="iconDiv">
-                    <img src="./assets/Icon9.png"></img>
+                    <img src="./assets/Icon9.png" alt="img"></img>
                   </div>
                   <div>
                     <div className="divCardTitle">Employee Type:</div>
@@ -39,7 +40,7 @@ const ViewDetailsBody = () => {
                 </div>
                 <div className="d-flex mb-2 align-items-center">
                   <div className="iconDiv">
-                    <img src="./assets/Icon10.png"></img>
+                    <img src="./assets/Icon10.png" alt="img"></img>
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
@@ -48,7 +49,7 @@ const ViewDetailsBody = () => {
                 </div>
                 <div className="d-flex mb-2 align-items-center">
                   <div className="iconDiv">
-                    <img src="./assets/Icon11.png"></img>
+                    <img src="./assets/Icon11.png" alt="img"></img>
                   </div>
                   <div>
                     <div className="divCardTitle">Employee Type:</div>
@@ -60,7 +61,7 @@ const ViewDetailsBody = () => {
             <div className="col-lg-8 col-md-8 col-sm-12 ps-4 pe-4">
               <div className="jobdescription mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon1.png" width="24px" height="24px"></img>
+                  <img src="assets/icon1.png" width="24px" height="24px" alt="img"></img>
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
@@ -74,7 +75,7 @@ const ViewDetailsBody = () => {
               </div>
               <div className="resposibilities mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon6.png" width="24px" height="24px"></img>
+                  <img src="assets/icon6.png" width="24px" height="24px" alt="img"></img>
                   <span className="listTitle">Responsibilities and Duties:</span>
                 </div>
                 <div>
@@ -127,7 +128,7 @@ const ViewDetailsBody = () => {
               </div>
               <div className="qualifications mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon7.png" width="24px" height="24px"></img>
+                  <img src="assets/icon7.png" width="24px" height="24px" alt="img"></img>
                   <span className="listTitle">Required Qualifications:</span>
                 </div>
                 <div>
@@ -181,7 +182,7 @@ const ViewDetailsBody = () => {
               </div>
               <div className="skills mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon8.png" width="24px" height="24px"></img>
+                  <img src="assets/icon8.png" width="24px" height="24px" alt="img"></img>
                   <span className="listTitle">Skills :</span>
                 </div>
                 <div className="ulItem">

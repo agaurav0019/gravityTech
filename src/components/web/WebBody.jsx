@@ -12,7 +12,7 @@ const WebBody = () => {
             </h1>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 text-center mb-3">
-            <img src="./assets/img3.png" className="img-fluid"></img>
+            <img src="./assets/img3.png" className="img-fluid" alt="img"></img>
           </div>
         </div>
         <div className="webheading">Website Developement</div>
@@ -45,6 +45,7 @@ const WebBody = () => {
               src="./assets/image15.png"
               className="img-fluid"
               style={{ maxHeight: "109px" }}
+              alt="img"
             ></img>
             <div
               className="iconCard d-flex align-items-center justify-content-center"
@@ -62,6 +63,7 @@ const WebBody = () => {
               src="./assets/image16.png"
               className="img-fluid"
               style={{ maxHeight: "78px" }}
+              alt="img"
             ></img>
             <div
               className="iconCard d-flex align-items-center justify-content-center mt-3"
@@ -79,6 +81,7 @@ const WebBody = () => {
               src="./assets/image17.png"
               className="img-fluid"
               style={{ maxHeight: "78px" }}
+              alt="img"
             ></img>
             <div
               className="iconCard d-flex align-items-center justify-content-center mt-3"
@@ -96,6 +99,7 @@ const WebBody = () => {
               src="./assets/image18.png"
               className="img-fluid"
               style={{ maxHeight: "78px" }}
+              alt="img"
             ></img>
             <div
               className="iconCard d-flex align-items-center justify-content-center mt-3"
@@ -113,6 +117,7 @@ const WebBody = () => {
               src="./assets/image19.png"
               className="img-fluid"
               style={{ maxHeight: "78px" }}
+              alt="img"
             ></img>
             <div
               className="iconCard d-flex align-items-center justify-content-center mt-3"

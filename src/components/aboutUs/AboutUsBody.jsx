@@ -12,7 +12,7 @@ const AboutUsBody = () => {
             </h1>
           </div>
           <div className="col-lg-5 col-md-12 col-sm-12 text-center mb-3">
-            <img src="./assets/img3.png" className="img-fluid"></img>
+            <img src="./assets/img3.png" alt="img" className="img-fluid"></img>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ const AboutUsBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
               <div className="cardBody d-flex align-items-center flex-column justify-content-center">
                 <div className="iconDiv d-flex align-items-center justify-content-center mb-4">
-                  <img src="./assets/Icon1.png"></img>
+                  <img src="./assets/Icon1.png" alt="img"></img>
                 </div>
                 <div className="cardBodyContent">One-stop Solutions</div>
               </div>
@@ -32,7 +32,7 @@ const AboutUsBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
               <div className="cardBody d-flex align-items-center flex-column justify-content-center">
                 <div className="iconDiv d-flex align-items-center justify-content-center mb-4">
-                  <img src="./assets/Icon2.png"></img>
+                  <img src="./assets/Icon2.png" alt="img"></img>
                 </div>
                 <div className="cardBodyContent">One-stop Solutions</div>
               </div>
@@ -40,7 +40,7 @@ const AboutUsBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
               <div className="cardBody d-flex align-items-center flex-column justify-content-center">
                 <div className="iconDiv d-flex align-items-center justify-content-center mb-4">
-                  <img src="./assets/Icon3.png"></img>
+                  <img src="./assets/Icon3.png" alt="img"></img>
                 </div>
                 <div className="cardBodyContent">One-stop Solutions</div>
               </div>
@@ -48,8 +48,8 @@ const AboutUsBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
               <div className="cardBody d-flex align-items-center flex-column justify-content-center">
                 <div className="iconDiv d-flex align-items-center justify-content-center mb-4">
-                  <img src="./assets/Icon4.png"></img>
-                  <img src="./assets/Icon5.png"></img>
+                  <img src="./assets/Icon4.png" alt="img"></img>
+                  <img src="./assets/Icon5.png" alt="img"></img>
                 </div>
                 <div className="cardBodyContent">One-stop Solutions</div>
               </div>
@@ -65,7 +65,7 @@ const AboutUsBody = () => {
           </div>
           <div className="row">
             <div className="col-lg-5 col-md-12 col-sm-12 text-center d-flex align-items-center justify-content-center">
-              <img src="./assets/image14.png" className="img-fluid"></img>
+              <img src="./assets/image14.png" alt="img" className="img-fluid"></img>
             </div>
             <div className="col-lg-7 col-md-12 col-sm-12 text-center mb-3 p-3">
               <div className="divTwoTitle">

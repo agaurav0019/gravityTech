@@ -1,7 +1,6 @@
 import "./App.css";
-import Footer from "./components/shared/Footer";
 import Home from "./pages/Home";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import WebsiteDevelopment from "./pages/WebsiteDevelopment";
 import AppDevelopment from "./pages/AppDevelopment";
 import AboutUs from "./pages/AboutUs";

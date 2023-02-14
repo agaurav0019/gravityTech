@@ -24,7 +24,7 @@ const HomeBody = () => {
             </div>
           </div>
           <div className="col-lg-5 col-md-12 col-sm-12 text-center mb-3">
-            <img src="./assets/img1.png" className="img-fluid"></img>
+            <img src="./assets/img1.png" alt="img" className="img-fluid"></img>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ const HomeBody = () => {
           </div>
           <div className="row">
             <div className="col-lg-5 col-md-12 col-sm-12 text-center mb-3">
-              <img src="./assets/image2.png" className="img-fluid"></img>
+              <img src="./assets/image2.png" alt="img" className="img-fluid"></img>
             </div>
             <div className="col-lg-7 col-md-12 col-sm-12 text-center mb-3 p-3">
               <div className="divTwoTitle">
@@ -73,7 +73,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3">
-                  <img src="./assets/image4.png"></img>
+                  <img src="./assets/image4.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTitle mb-3">Web Development</div>
@@ -98,7 +98,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3">
-                  <img src="./assets/image5.png"></img>
+                  <img src="./assets/image5.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTitle mb-3">Mobile App Development</div>
@@ -121,7 +121,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3">
-                  <img src="./assets/image6.png"></img>
+                  <img src="./assets/image6.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTitle mb-3">ERP Development</div>
@@ -145,7 +145,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3">
-                  <img src="./assets/image7.png"></img>
+                  <img src="./assets/image7.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTitle mb-3">Cloud Management</div>
@@ -178,7 +178,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image8.png"></img>
+                  <img src="./assets/image8.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Web Development</div>
@@ -200,7 +200,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image9.png"></img>
+                  <img src="./assets/image9.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Design</div>
@@ -222,7 +222,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image10.png"></img>
+                  <img src="./assets/image10.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Development</div>
@@ -244,7 +244,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image11.png"></img>
+                  <img src="./assets/image11.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Test</div>
@@ -267,7 +267,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image12.png"></img>
+                  <img src="./assets/image12.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Launch</div>
@@ -290,7 +290,7 @@ const HomeBody = () => {
                 }}
               >
                 <div className="pt-3 mb-3">
-                  <img src="./assets/image13.png"></img>
+                  <img src="./assets/image13.png" alt="img"></img>
                 </div>
                 <div className="card-body">
                   <div className="cardTwoTitle mb-3">Support</div>

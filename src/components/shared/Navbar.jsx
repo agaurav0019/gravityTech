@@ -41,16 +41,15 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <span
                   className="nav-link dropdown-toggle"
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Services
-                </a>
+                </span>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <Link to="/web" className="dropdown-item">Web Development</Link>
@@ -67,14 +66,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Career
-                </a>
+                <Link to="/career" className="nav-link">Career</Link>
               </li>
             </ul>
 

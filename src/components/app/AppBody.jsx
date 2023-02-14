@@ -15,7 +15,7 @@ const AppBody = () => {
             </h1>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 text-center mb-3">
-            <img src="./assets/img3.png" className="img-fluid"></img>
+            <img src="./assets/img3.png" alt="img" className="img-fluid"></img>
           </div>
         </div>
         <div className="appheading">App Developement</div>
@@ -50,7 +50,7 @@ const AppBody = () => {
         >
           <div className="col-lg-5 col-md-5 col-sm-12 text-center">
             <div className="imgContainer">
-              <img src="./assets/AndroidApp.png" className="img-fluid"></img>
+              <img src="./assets/AndroidApp.png" alt="img" className="img-fluid"></img>
             </div>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12">
@@ -71,7 +71,7 @@ const AppBody = () => {
         >
           <div className="col-lg-5 col-md-5 col-sm-12 text-center">
             <div className="imgContainer">
-              <img src="./assets/ApplePhone.png" className="img-fluid"></img>
+              <img src="./assets/ApplePhone.png" alt="img" className="img-fluid"></img>
             </div>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12 ">
@@ -93,7 +93,7 @@ const AppBody = () => {
         >
           <div className="col-lg-5 col-md-5 col-sm-12 text-center">
             <div className="imgContainer">
-              <img src="./assets/Watch.png" className="img-fluid"></img>
+              <img src="./assets/Watch.png" alt="img" className="img-fluid"></img>
             </div>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12 ">
