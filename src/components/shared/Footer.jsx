@@ -37,7 +37,6 @@ const Footer = () => {
               </li>
               <li className="pb-1">
                 <Link
-                  to="/services"
                   className="text-decoration-none text-dark fw-bold"
                 >
                   Services
