@@ -6,12 +6,13 @@ const Navbar = () => {
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container-fluid">
-          <button
+          {/* <button
             className="navbar-brand btn "
             style={{ background: "#D9D9D9", borderRadius: "5px" }}
           >
             LOGO
-          </button>
+          </button> */}
+          <img src="./assets/logo.jpeg" alt="logo" height="100px" width="100px"></img>
           <button
             className="navbar-toggler"
             type="button"
