@@ -45,7 +45,7 @@ const Form = () => {
           </div>
         </div>
         <div className="row text-center">
-            <div><Link to="/" className="contactUsBtn">Contact Us</Link></div>
+            <div><Link to="/contact-us" className="contactUsBtn">Contact Us</Link></div>
         </div>
       </div>
     </>
