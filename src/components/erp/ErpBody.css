@@ -79,3 +79,14 @@
   text-align: justify;
   color: #000000;
 }
+
+.cardTwo{
+    min-height: 351px;
+}
+
+@media (max-width: 768px) {
+    .cardTwo{
+        min-height: 0;
+        padding: 5%;
+    }
+}

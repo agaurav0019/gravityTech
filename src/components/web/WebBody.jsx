@@ -47,14 +47,7 @@ const WebBody = () => {
               style={{ maxHeight: "109px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center">
               Java Development
             </div>
           </div>
@@ -65,14 +58,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Python Development
             </div>
           </div>
@@ -83,14 +69,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               PHP Development
             </div>
           </div>
@@ -101,14 +80,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               .Net Development
             </div>
           </div>
@@ -119,14 +91,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Ruby Development
             </div>
           </div>
@@ -144,14 +109,7 @@ const WebBody = () => {
               style={{ maxHeight: "109px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center">
               WordPress
             </div>
           </div>
@@ -162,14 +120,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Joomla
             </div>
           </div>
@@ -180,14 +131,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Drupal
             </div>
           </div>
@@ -198,14 +142,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Typo3
             </div>
           </div>
@@ -216,21 +153,15 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Umbraco
             </div>
           </div>
           <div className="col-lg-1 col-md-1"></div>
         </div>
         <div className="techsubheading">
-          We are experts at high performing & highly scalable mean stack development
+          We are experts at high performing & highly scalable mean stack
+          development
         </div>
         <div className="row text-center">
           <div className="col-lg-1 col-md-1"></div>
@@ -241,14 +172,7 @@ const WebBody = () => {
               style={{ maxHeight: "109px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center">
               Mongo DB
             </div>
           </div>
@@ -259,14 +183,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Angular JS
             </div>
           </div>
@@ -277,14 +194,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               React JS
             </div>
           </div>
@@ -295,14 +205,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Node JS
             </div>
           </div>
@@ -313,14 +216,7 @@ const WebBody = () => {
               style={{ maxHeight: "78px" }}
               alt="img"
             ></img>
-            <div
-              className="iconCard d-flex align-items-center justify-content-center mt-3"
-              style={{
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "18px",
-              }}
-            >
+            <div className="iconCard d-flex align-items-center justify-content-center mt-3">
               Socket.io
             </div>
           </div>
