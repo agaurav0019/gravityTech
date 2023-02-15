@@ -1,16 +1,16 @@
 import React from 'react'
+import CareerBody from '../components/career/CareerBody'
 import Footer from '../components/shared/Footer'
 import Navbar from '../components/shared/Navbar'
-import ViewDetailsBody from '../components/viewDetails/ViewDetailsBody'
 
-const ViewDetails = () => {
+const Career = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <ViewDetailsBody></ViewDetailsBody>
+      <CareerBody></CareerBody>
       <Footer></Footer>
     </div>
   )
 }
 
-export default ViewDetails
+export default Career

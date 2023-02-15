@@ -8,6 +8,8 @@ import ContactUs from "./pages/ContactUs";
 import ERPDevelopment from "./pages/ERPDevelopment";
 import CloudManagement from "./pages/CloudManagement";
 import ViewDetails from "./pages/ViewDetails";
+import Career from "./pages/Career";
+import JobApply from "./pages/JobApply";
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
         <Route path="/app" element={<AppDevelopment></AppDevelopment>}></Route>
         <Route path="/erp" element={<ERPDevelopment></ERPDevelopment>}></Route>
         <Route path="/contact-us" element={<ContactUs></ContactUs>}></Route>
+        <Route path="/career" element={<Career></Career>}></Route>
         <Route path="/cloud" element={<CloudManagement></CloudManagement>}></Route>
         <Route path="/viewDetails" element={<ViewDetails></ViewDetails>}></Route>
+        <Route path="/job-apply" element={<JobApply></JobApply>}></Route>
       </Routes>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./ViewDetailsBody.css";
 
 const ViewDetailsBody = () => {
@@ -53,7 +54,9 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Employee Type:</div>
-                    <div className="divCardSubTitle">wSparse Matrix Solutions Pvt Ltd</div>
+                    <div className="divCardSubTitle">
+                      wSparse Matrix Solutions Pvt Ltd
+                    </div>
                   </div>
                 </div>
               </div>
@@ -61,7 +64,12 @@ const ViewDetailsBody = () => {
             <div className="col-lg-8 col-md-8 col-sm-12 ps-4 pe-4">
               <div className="jobdescription mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon1.png" width="24px" height="24px" alt="img"></img>
+                  <img
+                    src="assets/icon1.png"
+                    width="24px"
+                    height="24px"
+                    alt="img"
+                  ></img>
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
@@ -75,8 +83,15 @@ const ViewDetailsBody = () => {
               </div>
               <div className="resposibilities mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon6.png" width="24px" height="24px" alt="img"></img>
-                  <span className="listTitle">Responsibilities and Duties:</span>
+                  <img
+                    src="assets/icon6.png"
+                    width="24px"
+                    height="24px"
+                    alt="img"
+                  ></img>
+                  <span className="listTitle">
+                    Responsibilities and Duties:
+                  </span>
                 </div>
                 <div>
                   <ul className="ulItem">
@@ -128,7 +143,12 @@ const ViewDetailsBody = () => {
               </div>
               <div className="qualifications mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon7.png" width="24px" height="24px" alt="img"></img>
+                  <img
+                    src="assets/icon7.png"
+                    width="24px"
+                    height="24px"
+                    alt="img"
+                  ></img>
                   <span className="listTitle">Required Qualifications:</span>
                 </div>
                 <div>
@@ -182,7 +202,12 @@ const ViewDetailsBody = () => {
               </div>
               <div className="skills mb-5">
                 <div className="d-flex align-items-center mb-3">
-                  <img src="assets/icon8.png" width="24px" height="24px" alt="img"></img>
+                  <img
+                    src="assets/icon8.png"
+                    width="24px"
+                    height="24px"
+                    alt="img"
+                  ></img>
                   <span className="listTitle">Skills :</span>
                 </div>
                 <div className="ulItem">
@@ -193,6 +218,9 @@ const ViewDetailsBody = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="d-flex align-items-center justify-content-center">
+        <Link to="/job-apply" className="applyNowBtn">Apply Now</Link>
       </div>
     </>
   );

@@ -1,5 +1,4 @@
 .viewDetailsTitle {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -17,12 +16,14 @@
   line-height: 61px;
   color: #000000;
   margin-bottom: 35px;
+  padding-top: 35px;
 }
 
 .jobcard {
   background: #f5f4f0;
   border-radius: 20px;
   padding: 5%;
+  margin-bottom: 40px;
 }
 
 .jobinformation {
@@ -81,4 +82,51 @@
   /* or 194% */
 
   color: #000000;
+}
+
+.applyNowBtn {
+  background: #ffffff;
+  border: 1px solid rgba(135, 135, 135, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .viewDetailsTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #000000;
+  }
+
+  .viewdetailsheading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 35px;
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 480px) {
 }

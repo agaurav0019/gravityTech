@@ -1,16 +1,16 @@
 import React from 'react'
+import JobApplyBody from '../components/jobApply/JobApplyBody'
 import Footer from '../components/shared/Footer'
 import Navbar from '../components/shared/Navbar'
-import ViewDetailsBody from '../components/viewDetails/ViewDetailsBody'
 
-const ViewDetails = () => {
+const JobApply = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <ViewDetailsBody></ViewDetailsBody>
+      <JobApplyBody></JobApplyBody>
       <Footer></Footer>
     </div>
   )
 }
 
-export default ViewDetails
+export default JobApply
