@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./CareerBody.css"
+import "./CareerBody.css";
 
 const CareerBody = () => {
   return (
@@ -23,85 +23,99 @@ const CareerBody = () => {
           </div>
         </div>
       </div>
-      <div style={{background:"#F5F4F0"}}>
+      <div style={{ background: "#F5F4F0" }}>
         <div className="container ps-4 pe-4">
-            <div className="recommendedjob pt-4">Recommended Job :</div>
-            <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Full Time</div>
-                    <div className="jobtitle">Full Stack developer Java/Python/PHP/.Net</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">1-2 year experience</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Full Time</div>
-                    <div className="jobtitle">Testing Engineer</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">1-2 year experience</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Front End Developer</div>
-                    <div className="jobtitle">Testing Engineer</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">Fresher</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
+          <div className="recommendedjob pt-4">Recommended Job :</div>
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">
+                Full Stack developer Java/Python/PHP/.Net
+              </div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">1-2 year experience</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
             </div>
-            <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Full Time</div>
-                    <div className="jobtitle">Devops Engineer</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">1-2 year experience</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Full Time</div>
-                    <div className="jobtitle">Data Analyst</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">1-2 year experience</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-                    <div className="fulltime">Front End Developer</div>
-                    <div className="jobtitle">Trainee Software developer</div>
-                    <div className="req">Requirements :</div>
-                    <div className="d-flex align-items-center">
-                        <div className="circle"></div>
-                        <div className="experience">Fresher</div>
-                    </div>
-                    <div>
-                        <Link to="/viewDetails" className="viewDetailsbtn">View Details</Link>
-                    </div>
-                </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">Testing Engineer</div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">1-2 year experience</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
             </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">Front End Developer</div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">Fresher</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">Devops Engineer</div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">1-2 year experience</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">Data Analyst</div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">1-2 year experience</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
+              <div className="jobtitle">Trainee Software developer</div>
+              <div className="fulltime">Full Time</div>
+              <div className="req">Requirements :</div>
+              <div className="d-flex align-items-center">
+                <div className="circle"></div>
+                <div className="experience">Fresher</div>
+              </div>
+              <div>
+                <Link to="/viewDetails" className="viewDetailsbtn">
+                  View Details
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

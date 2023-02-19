@@ -48,17 +48,6 @@ const ViewDetailsBody = () => {
                     <div className="divCardSubTitle">Website Developer</div>
                   </div>
                 </div>
-                <div className="d-flex mb-2 align-items-center">
-                  <div className="iconDiv">
-                    <img src="./assets/Icon11.png" alt="img"></img>
-                  </div>
-                  <div>
-                    <div className="divCardTitle">Employee Type:</div>
-                    <div className="divCardSubTitle">
-                      wSparse Matrix Solutions Pvt Ltd
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-lg-8 col-md-8 col-sm-12 ps-4 pe-4">
