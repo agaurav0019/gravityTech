@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ps-2 pe-2" style={{backgroundColor: "#F0EBE3"}}>
         <div className="container-fluid">
-          <Link to="/home"><img src="./assets/gravityLogoFinalOne.png" className="img-fluid" style={{maxWidth:"185px"}}></img></Link>
+          <Link to="/home"><img src="./assets/gravityLogoFinalOne.png" className="img-fluid" style={{maxWidth:"185px"}} alt="logo"></img></Link>
           <button
             className="navbar-toggler"
             type="button"
