@@ -3,10 +3,10 @@ import {Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light ">
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light ps-2 pe-2" style={{backgroundColor: "#F0EBE3"}}>
         <div className="container-fluid">
-          <Link to="/home"><img src="./assets/logo.jpeg" alt="logo" height="100px" width="100px"></img></Link>
+          <Link to="/home"><img src="./assets/finalLogo.png" alt="logo" height="90px" width="90px"></img></Link>
           <button
             className="navbar-toggler"
             type="button"
