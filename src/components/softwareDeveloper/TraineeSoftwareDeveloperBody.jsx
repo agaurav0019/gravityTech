@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewDetailsBody.css";
 
-const ViewDetailsBody = () => {
+const TraineeSoftwareDeveloperBody = () => {
   return (
     <>
       <div className="container homeBody">
@@ -25,7 +24,7 @@ const ViewDetailsBody = () => {
       </div>
       <div style={{ background: "#D9D9D9" }}>
         <div className="container">
-          <div className="viewdetailsheading">Frontend Developer</div>
+          <div className="viewdetailsheading">Trainee Software Developer</div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="jobcard">
@@ -45,7 +44,9 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
-                    <div className="divCardSubTitle">Frontend Developer</div>
+                    <div className="divCardSubTitle">
+                      Trainee Software Developer
+                    </div>
                   </div>
                 </div>
               </div>
@@ -62,18 +63,14 @@ const ViewDetailsBody = () => {
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
-                  We are seeking a front-end web developer to join our team. As
-                  a front-end developer, you will be responsible for the user
-                  interface of our website. Qualified candidates will be
-                  expected to have a working knowledge of HTML5, CSS, and
-                  JavaScript and a basic understanding of user interface and
-                  user experience (UI/UX) design. Your duties will include
-                  turning wireframes and mock-ups into reusable code and
-                  building high-quality UI components with scalability in mind.
-                  You will also be responsible for implementing new features to
-                  our WordPress website, handling the integration of plugins
-                  such as WooCommerce, and performing routine maintenance and
-                  performance optimizations.
+                  This role is suitable for a bright and ambitious individual
+                  who is looking to develop their software engineering skills in
+                  a fast-paced environment. The successful applicant will be
+                  responsible for developing software applications, improving
+                  existing applications, and providing technical support and
+                  advice. The position will involve working closely with the
+                  other software engineers, software architects, and product
+                  owners to ensure the development of quality applications.
                 </div>
               </div>
               <div className="resposibilities mb-5">
@@ -91,39 +88,38 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Use a variety of programming languages in order to create
-                      user-friendly web pages
-                    </li>
-                    <li>Maintain and improve company website</li>
-                    <li>
-                      Work in multidisciplinary team with other professionals
-                      such as back-end developers and web designers
+                      Developing and maintaining software applications using
+                      standard programming languages such as Java, C++, or
+                      Python
                     </li>
                     <li>
-                      Writing tested, idiomatic, and documented JavaScript, HTML
-                      and CSS
+                      Writing, debugging, and maintaining code for projects
+                    </li>
+                    <li>Identifying and resolving software defects</li>
+                    <li>
+                      Ensuring software meets industry standards and
+                      requirements
                     </li>
                     <li>
-                      Build high-quality mock-ups and design different
-                      prototypes
+                      Creating unit tests to ensure code works as expected
                     </li>
-                    <li>Provide high-quality graphics and visual elements</li>
-                    <li>Optimize our web applications for maximum speed</li>
-                    <li> Design mobile-based features.</li>
-                    <li>Always stay consistent with our brand guidelines</li>
-                    <li>Get feedback from users and customers.</li>
-                    <li>Make suggestions for better solutions to problems.</li>
-                    <li>Keep abreast of latest and emerging technologies.</li>
-                    <li> Attend training and educations.</li>
                     <li>
-                      Debug errors, troubleshoot issues, and perform routine
-                      performance optimizations.
+                      Working closely with a team of software engineers and
+                      other professionals
                     </li>
-                    <li>On-site search engine optimization (SEO).</li>
-                    <li>Write high-quality, scalable, and reusable code</li>
+                    <li>Participating in design, code, and test reviews</li>
+                    <li>Documenting software development processes</li>
                     <li>
-                      Stay plugged into emerging technologies and industry
-                      trends.
+                      Keeping up to date with the latest industry trends and
+                      technologies
+                    </li>
+                    <li>
+                      Performing maintenance and upgrades on existing software
+                      applications
+                    </li>
+                    <li>
+                      Working with customers to troubleshoot and address
+                      software issues
                     </li>
                   </ul>
                 </div>
@@ -140,40 +136,37 @@ const ViewDetailsBody = () => {
                 </div>
                 <div>
                   <ul className="ulItem">
+                    <li>Any Bachelor's degree or PG in any Specialization.</li>
                     <li>
-                      Any Bachelor's degree or PG in any Specialization with
-                      Proven experience.
+                      As a trainee software developer, you need to have a basic
+                      understanding of software development principles,
+                      languages, and tools.
                     </li>
                     <li>
-                      Minimum of 2 years of experience developing modern,
-                      responsive, and cross-browser-compatible websites using
-                      HTML, CSS, and JavaScript
+                      You should be familiar with systems programming and
+                      object-oriented programming languages, such as Java, C++,
+                      and Python.
                     </li>
                     <li>
-                      Knowledge of JavaScript frameworks such as React, Angular,
-                      and Vue
+                      You should also understand how to use databases, as well
+                      as web development and mobile development tools such as
+                      Android and iOS SDKs.
                     </li>
                     <li>
-                      {" "}
-                      Experience with JavaScript libraries such as jQuery and
-                      Bootstrap
+                      you should have a strong knowledge of various computer
+                      algorithms and data structures, problem-solving
+                      strategies, and debugging techniques.
                     </li>
                     <li>
-                      Proficiency with HTML5, including semantic HTML5 elements,
-                      microformats.
+                      Additionally, you should be able to work with a team, and
+                      be able to communicate effectively with stakeholders and
+                      other developers in order to successfully complete a
+                      project.
                     </li>
                     <li>
-                      Familiarity with CSS pre-processors such as Sass, Less, or
-                      Stylus
-                    </li>
-                    <li>Working knowledge of SEO principles</li>
-                    <li>
-                      Experience with build tools such as Grunt, Gulp, or
-                      Webpack
-                    </li>
-                    <li>Basic proficiency with Photoshop and web design</li>
-                    <li>
-                      Experience with cross-browser compatibility testing.
+                      You should also have a basic understanding of software
+                      engineering principles, such as software architecture,
+                      system design, and software testing.
                     </li>
                   </ul>
                 </div>
@@ -191,4 +184,4 @@ const ViewDetailsBody = () => {
   );
 };
 
-export default ViewDetailsBody;
+export default TraineeSoftwareDeveloperBody;

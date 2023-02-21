@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewDetailsBody.css";
 
-const ViewDetailsBody = () => {
+const DataEntryBody = () => {
   return (
     <>
       <div className="container homeBody">
@@ -25,7 +24,7 @@ const ViewDetailsBody = () => {
       </div>
       <div style={{ background: "#D9D9D9" }}>
         <div className="container">
-          <div className="viewdetailsheading">Frontend Developer</div>
+          <div className="viewdetailsheading">Data Entry</div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="jobcard">
@@ -45,7 +44,7 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
-                    <div className="divCardSubTitle">Frontend Developer</div>
+                    <div className="divCardSubTitle">Data Entry</div>
                   </div>
                 </div>
               </div>
@@ -62,18 +61,10 @@ const ViewDetailsBody = () => {
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
-                  We are seeking a front-end web developer to join our team. As
-                  a front-end developer, you will be responsible for the user
-                  interface of our website. Qualified candidates will be
-                  expected to have a working knowledge of HTML5, CSS, and
-                  JavaScript and a basic understanding of user interface and
-                  user experience (UI/UX) design. Your duties will include
-                  turning wireframes and mock-ups into reusable code and
-                  building high-quality UI components with scalability in mind.
-                  You will also be responsible for implementing new features to
-                  our WordPress website, handling the integration of plugins
-                  such as WooCommerce, and performing routine maintenance and
-                  performance optimizations.
+                  Data analysts are responsible for gathering, analyzing and
+                  interpreting large sets of data. They need to have a good
+                  understanding of statistics and information systems, as well
+                  as the ability to effectively communicate their findings.
                 </div>
               </div>
               <div className="resposibilities mb-5">
@@ -91,39 +82,77 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Use a variety of programming languages in order to create
-                      user-friendly web pages
-                    </li>
-                    <li>Maintain and improve company website</li>
-                    <li>
-                      Work in multidisciplinary team with other professionals
-                      such as back-end developers and web designers
+                      Develop and implement data-driven solutions to optimize
+                      organizational processes and operations
                     </li>
                     <li>
-                      Writing tested, idiomatic, and documented JavaScript, HTML
-                      and CSS
+                      Collect, interpret, and analyze large quantities of data
+                      from a variety of sources
                     </li>
                     <li>
-                      Build high-quality mock-ups and design different
-                      prototypes
+                      Utilize data analysis tools to create meaningful reports
                     </li>
-                    <li>Provide high-quality graphics and visual elements</li>
-                    <li>Optimize our web applications for maximum speed</li>
-                    <li> Design mobile-based features.</li>
-                    <li>Always stay consistent with our brand guidelines</li>
-                    <li>Get feedback from users and customers.</li>
-                    <li>Make suggestions for better solutions to problems.</li>
-                    <li>Keep abreast of latest and emerging technologies.</li>
-                    <li> Attend training and educations.</li>
+                    <li>Monitor and report on key performance indicators</li>
                     <li>
-                      Debug errors, troubleshoot issues, and perform routine
-                      performance optimizations.
+                      Work with stakeholders to identify areas of improvement
+                      and develop solutions
                     </li>
-                    <li>On-site search engine optimization (SEO).</li>
-                    <li>Write high-quality, scalable, and reusable code</li>
                     <li>
-                      Stay plugged into emerging technologies and industry
-                      trends.
+                      Create and maintain documentation of data processes, data
+                      flow, and procedures
+                    </li>
+                    <li>
+                      Generate ad-hoc reports to meet specific business needs
+                    </li>
+                    <li> Provide guidance on data-driven decision-making.</li>
+                    <li>
+                      Using automated tools to extract data from primary and
+                      secondary sources
+                    </li>
+                    <li>
+                      Removing corrupted data and fixing coding errors and
+                      related problems.
+                    </li>
+                    <li>
+                      Developing and maintaining databases, and data systems –
+                      reorganizing data in a readable format.
+                    </li>
+                    <li>
+                      Performing analysis to assess the quality and meaning of
+                      data.
+                    </li>
+                    <li>
+                      Filter Data by reviewing reports and performance
+                      indicators to identify and correct code problems.
+                    </li>
+                    <li>
+                      Using statistical tools to identify, analyze, and
+                      interpret patterns and trends in complex data sets could
+                      be helpful for the diagnosis and prediction.
+                    </li>
+                    <li>
+                      Assigning numerical value to essential business functions
+                      so that business performance can be assessed and compared
+                      over periods of time.
+                    </li>
+                    <li>
+                      Analyzing local, national, and global trends that impact
+                      both the organization and the industry
+                    </li>
+                    <li>
+                      Preparing reports for the management stating trends,
+                      patterns, and predictions using relevant data.
+                    </li>
+                    <li>
+                      Working with programmers, engineers, and management heads
+                      to identify process improvement opportunities, propose
+                      system modifications, and devise data governance
+                      strategies.
+                    </li>
+                    <li>
+                      Preparing final analysis reports for the stakeholders to
+                      understand the data-analysis steps, enabling them to take
+                      important decisions based on various facts and trends.
                     </li>
                   </ul>
                 </div>
@@ -145,35 +174,20 @@ const ViewDetailsBody = () => {
                       Proven experience.
                     </li>
                     <li>
-                      Minimum of 2 years of experience developing modern,
-                      responsive, and cross-browser-compatible websites using
-                      HTML, CSS, and JavaScript
+                      Advanced knowledge of statistics, data analysis, and
+                      predictive modelling.
                     </li>
                     <li>
-                      Knowledge of JavaScript frameworks such as React, Angular,
-                      and Vue
+                      Proficiency in software such as SQL, Python, SAS, R,
+                      Tableau, Power BI, and Excel.
                     </li>
                     <li>
-                      {" "}
-                      Experience with JavaScript libraries such as jQuery and
-                      Bootstrap
+                      Ability to work independently and as part of a team.
                     </li>
+                    <li>Excellent communication and presentation skills.</li>
                     <li>
-                      Proficiency with HTML5, including semantic HTML5 elements,
-                      microformats.
-                    </li>
-                    <li>
-                      Familiarity with CSS pre-processors such as Sass, Less, or
-                      Stylus
-                    </li>
-                    <li>Working knowledge of SEO principles</li>
-                    <li>
-                      Experience with build tools such as Grunt, Gulp, or
-                      Webpack
-                    </li>
-                    <li>Basic proficiency with Photoshop and web design</li>
-                    <li>
-                      Experience with cross-browser compatibility testing.
+                      Knowledge of industry best practices in data storage and
+                      security.
                     </li>
                   </ul>
                 </div>
@@ -191,4 +205,4 @@ const ViewDetailsBody = () => {
   );
 };
 
-export default ViewDetailsBody;
+export default DataEntryBody;

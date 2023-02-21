@@ -38,13 +38,13 @@ const CareerBody = () => {
                 <div className="experience">1-2 year experience</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/fullStack" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 p-2 mb-3">
-              <div className="jobtitle">Testing Engineer</div>
+              <div className="jobtitle">QA Engineer (Software Tester)</div>
               <div className="fulltime">Full Time</div>
               <div className="req">Requirements :</div>
               <div className="d-flex align-items-center">
@@ -52,7 +52,7 @@ const CareerBody = () => {
                 <div className="experience">1-2 year experience</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/testingEngineer" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>
@@ -66,7 +66,7 @@ const CareerBody = () => {
                 <div className="experience">Fresher</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/frontendDeveloper" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>
@@ -82,7 +82,7 @@ const CareerBody = () => {
                 <div className="experience">1-2 year experience</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/devopsEngineer" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>
@@ -96,7 +96,7 @@ const CareerBody = () => {
                 <div className="experience">1-2 year experience</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/dataEntry" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>
@@ -110,7 +110,7 @@ const CareerBody = () => {
                 <div className="experience">Fresher</div>
               </div>
               <div>
-                <Link to="/viewDetails" className="viewDetailsbtn">
+                <Link to="/traineeSoftwareDeveloper" className="viewDetailsbtn">
                   View Details
                 </Link>
               </div>

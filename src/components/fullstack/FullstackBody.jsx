@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewDetailsBody.css";
 
-const ViewDetailsBody = () => {
+const FullstackBody = () => {
   return (
     <>
       <div className="container homeBody">
@@ -25,7 +24,7 @@ const ViewDetailsBody = () => {
       </div>
       <div style={{ background: "#D9D9D9" }}>
         <div className="container">
-          <div className="viewdetailsheading">Frontend Developer</div>
+          <div className="viewdetailsheading">Full Stack Developer</div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="jobcard">
@@ -45,7 +44,7 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
-                    <div className="divCardSubTitle">Frontend Developer</div>
+                    <div className="divCardSubTitle">Full Stack Developer</div>
                   </div>
                 </div>
               </div>
@@ -62,18 +61,15 @@ const ViewDetailsBody = () => {
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
-                  We are seeking a front-end web developer to join our team. As
-                  a front-end developer, you will be responsible for the user
-                  interface of our website. Qualified candidates will be
-                  expected to have a working knowledge of HTML5, CSS, and
-                  JavaScript and a basic understanding of user interface and
-                  user experience (UI/UX) design. Your duties will include
-                  turning wireframes and mock-ups into reusable code and
-                  building high-quality UI components with scalability in mind.
-                  You will also be responsible for implementing new features to
-                  our WordPress website, handling the integration of plugins
-                  such as WooCommerce, and performing routine maintenance and
-                  performance optimizations.
+                  We are looking for a highly skilled computer programmer who is
+                  comfortable with both front and back end programming. Full
+                  stack developers are responsible for developing and designing
+                  front end web architecture, ensuring the responsiveness of
+                  applications, and working alongside graphic designers for web
+                  design features, among other duties. Full stack developers
+                  will be required to see out a project from conception to final
+                  product, requiring good organizational skills and attention to
+                  detail.
                 </div>
               </div>
               <div className="resposibilities mb-5">
@@ -91,39 +87,54 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Use a variety of programming languages in order to create
-                      user-friendly web pages
-                    </li>
-                    <li>Maintain and improve company website</li>
-                    <li>
-                      Work in multidisciplinary team with other professionals
-                      such as back-end developers and web designers
+                      Collaborate with development teams and product managers to
+                      create innovative software solutions.{" "}
                     </li>
                     <li>
-                      Writing tested, idiomatic, and documented JavaScript, HTML
-                      and CSS
+                      Keeping up with the latest advancements in programming
+                      languages and server apps.
                     </li>
                     <li>
-                      Build high-quality mock-ups and design different
-                      prototypes
+                      Create new, dynamic, front-end, and backend software
+                      products and apps that are dynamic and visually appealing
                     </li>
-                    <li>Provide high-quality graphics and visual elements</li>
-                    <li>Optimize our web applications for maximum speed</li>
-                    <li> Design mobile-based features.</li>
-                    <li>Always stay consistent with our brand guidelines</li>
-                    <li>Get feedback from users and customers.</li>
-                    <li>Make suggestions for better solutions to problems.</li>
-                    <li>Keep abreast of latest and emerging technologies.</li>
-                    <li> Attend training and educations.</li>
                     <li>
-                      Debug errors, troubleshoot issues, and perform routine
-                      performance optimizations.
+                      Able to develop entire architecture, responsive design,
+                      user interaction, and user experience.
                     </li>
-                    <li>On-site search engine optimization (SEO).</li>
-                    <li>Write high-quality, scalable, and reusable code</li>
                     <li>
-                      Stay plugged into emerging technologies and industry
-                      trends.
+                      The ability to use databases, proxies, APIs, version
+                      control systems, and third-party applications
+                    </li>
+                    <li>
+                      Offer suggestions for ongoing improvement, and add or
+                      remove features as necessary.
+                    </li>
+                    <li>
+                      Design a plan for stability, scalability, performance
+                      optimization, and ongoing improvement.
+                    </li>
+                    <li>
+                      Keep track of new development-related tools, frameworks,
+                      methods, and architectures.
+                    </li>
+                    <li>
+                      The developer is in charge of creating APIs depending on
+                      the architecture of the production application.
+                    </li>
+                    <li>
+                      All operating systems, including Windows, macOS, and
+                      Linux, must support applications without issues.{" "}
+                    </li>
+                    <li>
+                      GitHub and Git: Everyone who is a developer or who aspires
+                      to be one has heard of Git. It is an "open-source
+                      distributed version control system" that can accommodate
+                      your development needs. Developers can simply track all
+                      changes made to programs and apps, codes, websites,
+                      papers, and other related materials using Git.
+                      Professional developers typically have GitHub profiles,
+                      which are required if they are part of a team.{" "}
                     </li>
                   </ul>
                 </div>
@@ -142,39 +153,31 @@ const ViewDetailsBody = () => {
                   <ul className="ulItem">
                     <li>
                       Any Bachelor's degree or PG in any Specialization with
-                      Proven experience.
+                      Proven experience
                     </li>
                     <li>
-                      Minimum of 2 years of experience developing modern,
-                      responsive, and cross-browser-compatible websites using
-                      HTML, CSS, and JavaScript
+                      Strong organizational and project management skills.
                     </li>
                     <li>
-                      Knowledge of JavaScript frameworks such as React, Angular,
-                      and Vue
+                      Proficiency with fundamental front-end languages such as
+                      HTML, CSS, and JavaScript.
                     </li>
                     <li>
                       {" "}
-                      Experience with JavaScript libraries such as jQuery and
-                      Bootstrap
+                      Familiarity with JavaScript frameworks such as Angular JS,
+                      React, and Amber.
                     </li>
                     <li>
-                      Proficiency with HTML5, including semantic HTML5 elements,
-                      microformats.
+                      Proficiency with server-side languages such as Python,
+                      Ruby, Java, PHP, and .Net.
                     </li>
                     <li>
-                      Familiarity with CSS pre-processors such as Sass, Less, or
-                      Stylus
+                      Familiarity with database technology such as MySQL,
+                      Oracle, and MongoDB.
                     </li>
-                    <li>Working knowledge of SEO principles</li>
-                    <li>
-                      Experience with build tools such as Grunt, Gulp, or
-                      Webpack
-                    </li>
-                    <li>Basic proficiency with Photoshop and web design</li>
-                    <li>
-                      Experience with cross-browser compatibility testing.
-                    </li>
+                    <li>Excellent verbal communication skills.</li>
+                    <li>Good problem-solving skills.</li>
+                    <li>Attention to detail.</li>
                   </ul>
                 </div>
               </div>
@@ -191,4 +194,4 @@ const ViewDetailsBody = () => {
   );
 };
 
-export default ViewDetailsBody;
+export default FullstackBody;

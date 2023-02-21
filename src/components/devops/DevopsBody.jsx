@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewDetailsBody.css";
 
-const ViewDetailsBody = () => {
+const DevopsBody = () => {
   return (
     <>
       <div className="container homeBody">
@@ -25,7 +24,7 @@ const ViewDetailsBody = () => {
       </div>
       <div style={{ background: "#D9D9D9" }}>
         <div className="container">
-          <div className="viewdetailsheading">Frontend Developer</div>
+          <div className="viewdetailsheading">Devops Engineer</div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="jobcard">
@@ -45,7 +44,7 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
-                    <div className="divCardSubTitle">Frontend Developer</div>
+                    <div className="divCardSubTitle">Devops Engineer</div>
                   </div>
                 </div>
               </div>
@@ -62,18 +61,13 @@ const ViewDetailsBody = () => {
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
-                  We are seeking a front-end web developer to join our team. As
-                  a front-end developer, you will be responsible for the user
-                  interface of our website. Qualified candidates will be
-                  expected to have a working knowledge of HTML5, CSS, and
-                  JavaScript and a basic understanding of user interface and
-                  user experience (UI/UX) design. Your duties will include
-                  turning wireframes and mock-ups into reusable code and
-                  building high-quality UI components with scalability in mind.
-                  You will also be responsible for implementing new features to
-                  our WordPress website, handling the integration of plugins
-                  such as WooCommerce, and performing routine maintenance and
-                  performance optimizations.
+                  DevOps Engineers are conversant with all the technical as well
+                  as IT operations aspects for integrated operations. They are
+                  expected to know about the various automation tools which may
+                  be required for process automation and testing.DevOps engineer
+                  with a systematic approach to understand the job function in
+                  detail, and to identify the required skills and gaps for
+                  further improvement.
                 </div>
               </div>
               <div className="resposibilities mb-5">
@@ -91,39 +85,61 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Use a variety of programming languages in order to create
-                      user-friendly web pages
-                    </li>
-                    <li>Maintain and improve company website</li>
-                    <li>
-                      Work in multidisciplinary team with other professionals
-                      such as back-end developers and web designers
+                      Understanding customer requirements and project KPIs
                     </li>
                     <li>
-                      Writing tested, idiomatic, and documented JavaScript, HTML
-                      and CSS
+                      Implementing various development, testing, automation
+                      tools, and IT infrastructure
                     </li>
                     <li>
-                      Build high-quality mock-ups and design different
-                      prototypes
+                      Planning the team structure, activities, and involvement
+                      in project management activities.
                     </li>
-                    <li>Provide high-quality graphics and visual elements</li>
-                    <li>Optimize our web applications for maximum speed</li>
-                    <li> Design mobile-based features.</li>
-                    <li>Always stay consistent with our brand guidelines</li>
-                    <li>Get feedback from users and customers.</li>
-                    <li>Make suggestions for better solutions to problems.</li>
-                    <li>Keep abreast of latest and emerging technologies.</li>
-                    <li> Attend training and educations.</li>
+                    <li>Managing stakeholders and external interfaces</li>
+                    <li>Setting up tools and required infrastructure</li>
                     <li>
-                      Debug errors, troubleshoot issues, and perform routine
-                      performance optimizations.
+                      Defining and setting development, test, release, update,
+                      and support processes for DevOps operation
                     </li>
-                    <li>On-site search engine optimization (SEO).</li>
-                    <li>Write high-quality, scalable, and reusable code</li>
                     <li>
-                      Stay plugged into emerging technologies and industry
-                      trends.
+                      Have the technical skill to review, verify, and validate
+                      the software code developed in the project.
+                    </li>
+                    <li>
+                      Troubleshooting techniques and fixing the code bugs.
+                    </li>
+                    <li>
+                      Monitoring the processes during the entire lifecycle for
+                      its adherence and updating or creating new processes for
+                      improvement and minimizing the wastage
+                    </li>
+                    <li>
+                      Encouraging and building automated processes wherever
+                      possible
+                    </li>
+                    <li>
+                      Identifying and deploying cybersecurity measures by
+                      continuously performing vulnerability assessment and risk
+                      management
+                    </li>
+                    <li>Incidence management and root cause analysis</li>
+                    <li>
+                      Coordination and communication within the team and with
+                      customers
+                    </li>
+                    <li>Selecting and deploying appropriate CI/CD tools</li>
+                    <li>
+                      Strive for continuous improvement and build continuous
+                      integration, continuous development, and constant
+                      deployment pipeline (CI/CD Pipeline)
+                    </li>
+                    <li>Mentoring and guiding the team members.</li>
+                    <li>
+                      Monitoring and measuring customer experience and KPIs.
+                    </li>
+                    <li>
+                      Managing periodic reporting on the progress to the
+                      management and the customer
                     </li>
                   </ul>
                 </div>
@@ -145,35 +161,19 @@ const ViewDetailsBody = () => {
                       Proven experience.
                     </li>
                     <li>
-                      Minimum of 2 years of experience developing modern,
-                      responsive, and cross-browser-compatible websites using
-                      HTML, CSS, and JavaScript
+                      DevOps engineers must have good experience in common
+                      scripting languages like Perl, Java, and Python. Most of
+                      the DevOps tools require some level of scripting to
+                      automate things to the highest standard. For example,
+                      Ansible uses a YAML scripting language for automation,
+                      which is primarily based on Python.
                     </li>
                     <li>
-                      Knowledge of JavaScript frameworks such as React, Angular,
-                      and Vue
-                    </li>
-                    <li>
-                      {" "}
-                      Experience with JavaScript libraries such as jQuery and
-                      Bootstrap
-                    </li>
-                    <li>
-                      Proficiency with HTML5, including semantic HTML5 elements,
-                      microformats.
-                    </li>
-                    <li>
-                      Familiarity with CSS pre-processors such as Sass, Less, or
-                      Stylus
-                    </li>
-                    <li>Working knowledge of SEO principles</li>
-                    <li>
-                      Experience with build tools such as Grunt, Gulp, or
-                      Webpack
-                    </li>
-                    <li>Basic proficiency with Photoshop and web design</li>
-                    <li>
-                      Experience with cross-browser compatibility testing.
+                      YAML is used to create a complete automation workflow
+                      within a configuration management tool. Scripting
+                      knowledge will also help to sync better with the
+                      development teams and understand their code at a high
+                      level.
                     </li>
                   </ul>
                 </div>
@@ -191,4 +191,4 @@ const ViewDetailsBody = () => {
   );
 };
 
-export default ViewDetailsBody;
+export default DevopsBody;

@@ -3,7 +3,7 @@ import Footer from '../components/shared/Footer'
 import Navbar from '../components/shared/Navbar'
 import ViewDetailsBody from '../components/viewDetails/ViewDetailsBody'
 
-const ViewDetails = () => {
+const FrontendDeveloper = () => {
   return (
     <div>
       <Navbar></Navbar>
@@ -13,4 +13,4 @@ const ViewDetails = () => {
   )
 }
 
-export default ViewDetails
+export default FrontendDeveloper;

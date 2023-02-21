@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewDetailsBody.css";
 
-const ViewDetailsBody = () => {
+const TestingEngineerBody = () => {
   return (
     <>
       <div className="container homeBody">
@@ -25,7 +24,9 @@ const ViewDetailsBody = () => {
       </div>
       <div style={{ background: "#D9D9D9" }}>
         <div className="container">
-          <div className="viewdetailsheading">Frontend Developer</div>
+          <div className="viewdetailsheading">
+            QA Engineer (Software Tester)
+          </div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="jobcard">
@@ -45,7 +46,7 @@ const ViewDetailsBody = () => {
                   </div>
                   <div>
                     <div className="divCardTitle">Job Type:</div>
-                    <div className="divCardSubTitle">Frontend Developer</div>
+                    <div className="divCardSubTitle">QA Engineer</div>
                   </div>
                 </div>
               </div>
@@ -62,18 +63,18 @@ const ViewDetailsBody = () => {
                   <span className="listTitle">Job Description :</span>
                 </div>
                 <div className="ulItem">
-                  We are seeking a front-end web developer to join our team. As
-                  a front-end developer, you will be responsible for the user
-                  interface of our website. Qualified candidates will be
-                  expected to have a working knowledge of HTML5, CSS, and
-                  JavaScript and a basic understanding of user interface and
-                  user experience (UI/UX) design. Your duties will include
-                  turning wireframes and mock-ups into reusable code and
-                  building high-quality UI components with scalability in mind.
-                  You will also be responsible for implementing new features to
-                  our WordPress website, handling the integration of plugins
-                  such as WooCommerce, and performing routine maintenance and
-                  performance optimizations.
+                  We are looking for a results-driven software tester to be
+                  responsible for designing and running tests on software
+                  usability. The software tester will conduct tests, analyze the
+                  results, and report observations to the design team. You may
+                  also interact with clients in order to understand the
+                  requirements of the product. <br></br>
+                  To be successful as a software tester, you should have a
+                  working knowledge of software and test design, the capability
+                  to run through tests, and the ability to analyze the results.
+                  Ultimately, the software tester should be result-driven, have
+                  good communication skills, and up-to-date knowledge of
+                  software programming and software test design.
                 </div>
               </div>
               <div className="resposibilities mb-5">
@@ -91,39 +92,36 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Use a variety of programming languages in order to create
-                      user-friendly web pages
+                      Review business / software requirements and provide
+                      inputs.
                     </li>
-                    <li>Maintain and improve company website</li>
+                    <li>Prepare test cases, test scripts and test data.</li>
+                    <li>Execute tests (manual / automated).</li>
+                    <li>Report defects and assist in their understanding.</li>
                     <li>
-                      Work in multidisciplinary team with other professionals
-                      such as back-end developers and web designers
-                    </li>
-                    <li>
-                      Writing tested, idiomatic, and documented JavaScript, HTML
-                      and CSS
+                      Analyze test results and track software testing metrics.
                     </li>
                     <li>
-                      Build high-quality mock-ups and design different
-                      prototypes
+                      A Software Tester is responsible for designing testing
+                      scenarios for usability testing
                     </li>
-                    <li>Provide high-quality graphics and visual elements</li>
-                    <li>Optimize our web applications for maximum speed</li>
-                    <li> Design mobile-based features.</li>
-                    <li>Always stay consistent with our brand guidelines</li>
-                    <li>Get feedback from users and customers.</li>
-                    <li>Make suggestions for better solutions to problems.</li>
-                    <li>Keep abreast of latest and emerging technologies.</li>
-                    <li> Attend training and educations.</li>
                     <li>
-                      Debug errors, troubleshoot issues, and perform routine
-                      performance optimizations.
+                      He is responsible for conducting the testing, thereafter
+                      analyze the results and then submit his observations to
+                      the development team.
                     </li>
-                    <li>On-site search engine optimization (SEO).</li>
-                    <li>Write high-quality, scalable, and reusable code</li>
                     <li>
-                      Stay plugged into emerging technologies and industry
-                      trends.
+                      He may have to interact with the clients to better
+                      understand the product requirements or in case the design
+                      requires any kind of modifications.
+                    </li>
+                    <li>
+                      Software Testers are often responsible for creating
+                      test-product documentation and also has to participate in
+                      testing related walk through.
+                    </li>
+                    <li>
+                    	Prepare and present test reports.
                     </li>
                   </ul>
                 </div>
@@ -141,39 +139,19 @@ const ViewDetailsBody = () => {
                 <div>
                   <ul className="ulItem">
                     <li>
-                      Any Bachelor's degree or PG in any Specialization with
-                      Proven experience.
+                      Any Bachelor's degree or PG in any Specialization with Proven experience. 
                     </li>
                     <li>
-                      Minimum of 2 years of experience developing modern,
-                      responsive, and cross-browser-compatible websites using
-                      HTML, CSS, and JavaScript
+                    	1+ years of relevant work experience
                     </li>
                     <li>
-                      Knowledge of JavaScript frameworks such as React, Angular,
-                      and Vue
+                      	Knowledge of at least one programming/ scripting language
                     </li>
                     <li>
-                      {" "}
-                      Experience with JavaScript libraries such as jQuery and
-                      Bootstrap
+                      Knowledge of at least one database management system
                     </li>
                     <li>
-                      Proficiency with HTML5, including semantic HTML5 elements,
-                      microformats.
-                    </li>
-                    <li>
-                      Familiarity with CSS pre-processors such as Sass, Less, or
-                      Stylus
-                    </li>
-                    <li>Working knowledge of SEO principles</li>
-                    <li>
-                      Experience with build tools such as Grunt, Gulp, or
-                      Webpack
-                    </li>
-                    <li>Basic proficiency with Photoshop and web design</li>
-                    <li>
-                      Experience with cross-browser compatibility testing.
+                       Proficiency in written and spoken English
                     </li>
                   </ul>
                 </div>
@@ -191,4 +169,4 @@ const ViewDetailsBody = () => {
   );
 };
 
-export default ViewDetailsBody;
+export default TestingEngineerBody;
