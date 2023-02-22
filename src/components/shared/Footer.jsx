@@ -115,7 +115,6 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="description text-start">
-                <div>(+91) 8459694413</div>
                 <div>(+91) 8308460702</div>
               </div>
             </div>
