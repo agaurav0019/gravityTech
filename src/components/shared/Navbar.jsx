@@ -1,12 +1,22 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light ps-2 pe-2" style={{backgroundColor: "#F0EBE3"}}>
+      <nav
+        className="navbar navbar-expand-lg navbar-light ps-2 pe-2"
+        style={{ backgroundColor: "#F0EBE3" }}
+      >
         <div className="container-fluid">
-          <Link to="/home"><img src="./assets/gravityLogoFinalOne.png" className="img-fluid" style={{maxWidth:"185px"}} alt="logo"></img></Link>
+          <Link to="/home">
+            <img
+              src="./assets/gravityLogoFinalOne.png"
+              className="img-fluid"
+              style={{ maxWidth: "185px" }}
+              alt="logo"
+            ></img>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -21,7 +31,11 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ms-3 me-3 fw-semibold">
-                <Link className="nav-link text-dark" aria-current="page" to="/home">
+                <Link
+                  className="nav-link text-dark"
+                  aria-current="page"
+                  to="/home"
+                >
                   Home
                 </Link>
               </li>
@@ -42,31 +56,36 @@ const Navbar = () => {
                 </span>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link to="/web" className="dropdown-item text-dark">Web Development</Link>
+                    <Link to="/web" className="dropdown-item text-dark">
+                      Web Development
+                    </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item text-dark" to="/app">App Development</Link>
+                    <Link className="dropdown-item text-dark" to="/app">
+                      App Development
+                    </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item text-dark" to="/erp">ERP Development</Link>
+                    <Link className="dropdown-item text-dark" to="/erp">
+                      ERP Development
+                    </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item text-dark" to="/cloud">Cloud Management</Link>
+                    <Link className="dropdown-item text-dark" to="/cloud">
+                      Cloud Management
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item ms-3 me-3 fw-semibold">
-                <Link to="/career" className="nav-link text-dark">Career</Link>
+                <Link to="/career" className="nav-link text-dark">
+                  Career
+                </Link>
+              </li>
+              <li className="nav-item ms-3 me-3 fw-semibold">
+                <Link to="/contact-us" className="nav-link text-dark">Contact Us</Link>
               </li>
             </ul>
-
-            <Link
-            to="/contact-us"
-              className="btn"
-              style={{ background: "#0E0E0E", color: "white" }}
-            >
-              Contact Us
-            </Link>
           </div>
         </div>
       </nav>

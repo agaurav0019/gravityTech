@@ -9,7 +9,7 @@ const HomeBody = () => {
         <div className="row">
           <div className="col-lg-7 col-md-12 col-sm-12 text-center mb-3">
             <h1 className="bodyTitle">
-              TURNING GREAT <br /> IDEAS USER HAPPY PRODUCTS
+              TURNING GREAT <br /> IDEAS INTO USER HAPPY PRODUCTS
             </h1>
             <span className="bodySubtitle">
               with our award wining Mobile & Web Development Team
