@@ -43,7 +43,7 @@ const ErpBody = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",
@@ -65,7 +65,7 @@ const ErpBody = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",
@@ -86,7 +86,7 @@ const ErpBody = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",
@@ -107,7 +107,7 @@ const ErpBody = () => {
 
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",
@@ -126,7 +126,7 @@ const ErpBody = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",
@@ -148,7 +148,7 @@ const ErpBody = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div
-                  className="cardTwo text-center pt-4 ps-3 pe-3 mb-4"
+                  className="erpcardTwo text-center pt-4 ps-3 pe-3 mb-4"
                   style={{
                     background: "#FFFFFF",
                     border: "1px solid rgba(135, 135, 135, 0.3)",

@@ -80,12 +80,12 @@
   color: #000000;
 }
 
-.cardTwo{
+.erpcardTwo{
     min-height: 351px;
 }
 
 @media (max-width: 768px) {
-    .cardTwo{
+    .erpcardTwo{
         min-height: 0;
         padding: 5%;
     }
