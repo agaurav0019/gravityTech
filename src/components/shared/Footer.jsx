@@ -75,8 +75,8 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="description text-justify">
-                Anurag building Plot no 7, Anand Colony Cummins College Road
-                Near Lane no 11 Besides Hotel Assal Amravati Karve Nagar 411052
+                Anurag Building, First Floor, Plot No 7, Anand Colony, Cummins
+                College Road, Krave Nagar Pune 411052
               </div>
             </div>
             <div className="d-flex mb-3">
@@ -115,7 +115,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="description text-start">
-                <div>(+91) 8308460702</div>
+                <div>(+91) 083084 01241</div>
               </div>
             </div>
           </div>
@@ -124,8 +124,7 @@ const Footer = () => {
       <div className="text-warning bg-dark footerDiv d-flex align-items-center ps-3 pe-3">
         <div className="container d-flex justify-content-between">
           <div className="footerText">
-            Developed by eSparse Matrix Solutions Pvt Ltd. All Rights Reserved.
-            2022
+          
           </div>
           <div>
             <svg
